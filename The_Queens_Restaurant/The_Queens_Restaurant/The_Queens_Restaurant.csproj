@@ -89,6 +89,7 @@
     <Content Include="bat\twitter_api\tweet.php" />
     <Content Include="bat\twitter_api\twitteroauth\OAuth.php" />
     <Content Include="bat\twitter_api\twitteroauth\twitteroauth.php" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\fonts.css" />
     <Content Include="css\soundcloud.css" />
@@ -98,6 +99,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\lg.svg" />
     <Content Include="fonts\materialdesignicons-webfont.svg" />
+    <Content Include="Homepage.aspx" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\gallery-01-285x285.jpg" />
     <Content Include="images\gallery-02-285x285.jpg" />
@@ -153,6 +155,20 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
